@@ -25,3 +25,10 @@ $ git branch -d -r Branchname 删除远程branch（例git branch -d -r origin/aa
 $ git push <remote repository> <local branch> 把本地branch 推送到远程服务器
 $ git checkout name 切换分支
 $ git remote -v 要查看远程库的信息
+
+[移动或重命名文件]
+$ git mv old-filename new-filename
+
+
+[从工作目录和 Git 代码索引中删除文件]
+$ git rm filename
